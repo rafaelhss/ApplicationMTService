@@ -1,0 +1,22 @@
+entity MessageMT {
+	destination String required,
+    source String required,
+    body String required,
+    secretToken String required
+}
+
+//entity MessageMO {
+//	destination String required,
+ //   source String required,
+ //   body String required,
+ //   receivedTime ZonedDateTime,
+ //   chatId String required
+//}
+
+// Set pagination options
+paginate MessageMT with infinite-scroll
+
+// Set service options to all except few
+service all with serviceImpl
+// Set an angular suffix
+angularSuffix * with cartero
