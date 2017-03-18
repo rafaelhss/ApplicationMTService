@@ -36,5 +36,6 @@
     "dto": "no",
     "pagination": "infinite-scroll",
     "service": "serviceImpl",
-    "angularJSSuffix": "cartero"
+    "angularJSSuffix": "cartero",
+    "microserviceName": "ApplicationMTService"
 }

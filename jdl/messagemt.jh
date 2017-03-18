@@ -20,3 +20,5 @@ paginate MessageMT with infinite-scroll
 service all with serviceImpl
 // Set an angular suffix
 angularSuffix * with cartero
+
+microservice * with ApplicationMTService
